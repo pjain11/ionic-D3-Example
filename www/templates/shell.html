@@ -1,0 +1,21 @@
+<ion-pane ng-controller="ShellController as vm">
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Ionic D3 Example</h1>
+  </ion-header-bar>
+  <ion-content>
+    <div layout-gt-sm="row" layout="column">
+      <div bar-line-chart data-chart-data="vm.data"
+           data-line-series-value-field="unitsSold"
+           data-bar-series-value-field="revenue"
+           data-x-axis-value-field="label"
+           data-title="This year" flex-gt-sm class="chart" layout="column">
+      </div>
+      <div bar-line-chart data-chart-data="vm.data2"
+           data-line-series-value-field="unitsSold"
+           data-bar-series-value-field="revenue"
+           data-x-axis-value-field="label"
+           data-title="Last year" flex-gt-sm class="chart" layout="column">
+      </div>
+    </div>
+  </ion-content>
+</ion-pane>
