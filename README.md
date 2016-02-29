@@ -1,4 +1,4 @@
-# ionic-D3-Example - Patterns of using code/widgets between Angular and Ionic apps. 
+## ionic-D3-Example 
 
 ### How to run this project
 1. Install Ionic - http://ionicframework.com/getting-started/
